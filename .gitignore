@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# Allow only specific folders
+!dags/
+!data/
+!scripts/
+!models/
+!tests/
+
+# Ensure Git tracks files inside the allowed directories
+!dags/**/*
+!data/**/*
+!scripts/**/*
+!models/**/*
+!tests/**/*
+
+# Ignore __pycache__ from any folder
+**/__pycache__/
+__pycache__/
